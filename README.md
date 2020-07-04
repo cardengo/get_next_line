@@ -1,7 +1,7 @@
 ## get_next_line
 
 ### Description:
-`get_next_line.c` reads line from the file accroding to the file descriptor and writes the result in the input pointer
+`get_next_line.c` reads line from the file accroding to the file descriptor and writes the result to the input pointer
 * supports reading line by line
 * supports multiple file descriptors
 
@@ -9,7 +9,7 @@
 * `git clone "https://github.com/cardengo/get_next_line.git"`
 
 ### Usage:
-* `make` --> compile file
+* `make` --> compile files
 * `./gnl` --> launch binary
 * `make clean` --> delete `gnl` binary
 * `make val` --> check for memory leaks (required Valgrind)

@@ -1,7 +1,7 @@
 ## get_next_line
 
 ### Description:
-`get_next_line.c` reads line from the file accroding to the file descriptor and writes the result to the input pointer
+`get_next_line.c` reads line from the file accroding to the file descriptor and writes the result to the input pointer.
 * supports reading line by line
 * supports multiple file descriptors
 
@@ -19,5 +19,7 @@
 * `0` --> there is no more lines in the file (end of the file)
 * `-1`--> error occured
 
-### Comment:
-directory contains `main.c` and two files (in `files/`) for quick demonstration
+### Comments:
+Directory contains `main.c` and two files (in `files/`) for quick demonstration.
+
+Unix systems only.

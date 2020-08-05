@@ -12,7 +12,7 @@
 * `make` --> compile files
 * `./gnl` --> launch binary
 * `make clean` --> delete `gnl` binary
-* `make val` --> check for memory leaks (required Valgrind)
+* `make val` --> check for memory leaks (required [Valgrind](https://valgrind.org/))
 
 ### Return value:
 * `1` --> line was read

@@ -10,7 +10,7 @@
 
 ### Usage:
 * `make` --> compile files
-* `./gnl` --> launch binary
+* `./gnl` + `file-to-raed` --> launch binary
 * `make clean` --> delete `gnl` binary
 * `make val` --> check for memory leaks (required [Valgrind](https://valgrind.org/))
 
